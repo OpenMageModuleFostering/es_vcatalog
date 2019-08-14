@@ -1,0 +1,15 @@
+<?php if (Mage::getStoreConfig('vcatalog/general/incategory') == 1): ?>
+    <?php $_menu = $this->getHtml('level-top') ?>
+    <?php if($_menu): ?>
+    <div class="block">
+        <div class="block-title">
+            <strong><span><?php echo $this->__('Catalog') ?></span></strong>
+        </div>
+        <div class="v-nav-container">
+            <ul id="v-nav">
+                <?php echo $_menu ?>
+            </ul>
+        </div>
+    </div>
+    <?php endif ?>
+<?php endif ?>

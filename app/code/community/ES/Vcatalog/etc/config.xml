@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <ES_Vcatalog>
+            <version>1.1.0</version>
+        </ES_Vcatalog>
+    </modules>
+
+    <frontend>
+        <routers>
+            <vcatalog>
+                <use>standard</use>
+                <args>
+                    <module>ES_Vcatalog</module>
+                    <frontName>vcatalog</frontName>
+                </args>
+            </vcatalog>
+        </routers>
+        <layout>
+            <updates>
+                <vcatalog>
+                    <file>vcatalog.xml</file>
+                </vcatalog>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <vcatalog>
+                <class>ES_Vcatalog_Block</class>
+            </vcatalog>
+        </blocks>
+
+        <helpers>
+            <Vcatalog>
+                <class>ES_Vcatalog_Helper</class>
+            </Vcatalog>
+        </helpers>
+
+        <models>
+            <catalog>
+                <rewrite>
+                    <observer>ES_Vcatalog_Model_Observer</observer>
+                </rewrite>
+            </catalog>
+            <vcatalog>
+                <class>ES_Vcatalog_Model</class>
+                <resourceModel>vcatalog_resource</resourceModel>
+            </vcatalog>
+            <vcatalog_resource>
+                <class>ES_Vcatalog_Model_Resource</class>
+            </vcatalog_resource>
+        </models>
+
+    </global>
+
+    <default>
+        <vcatalog>
+            <general>
+                <columns>2</columns>
+                <showimg>1</showimg>
+                <imgposition>right</imgposition>
+                <imagewidth>198</imagewidth>
+                <inhomepage>1</inhomepage>
+                <incategory>0</incategory>
+            </general>
+        </vcatalog>
+    </default>
+</config>

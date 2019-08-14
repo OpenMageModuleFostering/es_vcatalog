@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>ES_Vcatalog</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Vertical Catalog Exploded Navigation</summary>
+    <description>Vertical Catalog Exploded Navigation</description>
+    <notes>Worked version</notes>
+    <authors><author><name>Edvinas Stulpinas</name><user>edas1</user><email>st.edvinas@gmail.com</email></author></authors>
+    <date>2013-02-23</date>
+    <time>11:41:12</time>
+    <contents><target name="magecommunity"><dir name="ES"><dir name="Vcatalog"><dir name="Block"><file name="Vcatalog.php" hash="a8837f5a77174774d51b2deea1dd3b04"/></dir><dir name="Helper"><file name="Data.php" hash="33f9b4fba221212d447a123c8e183053"/></dir><dir name="Model"><file name="Observer.php" hash="f36a11a40cb4492a6584d75f4f613fd1"/><dir name="System"><dir name="Config"><file name="Columns.php" hash="b9f2d2848af77472e0e3e4ce0bd4ff5e"/><file name="Imgposition.php" hash="415636c160106a43a3b13e22ecb5640b"/></dir></dir></dir><dir name="etc"><file name="adminhtml.xml" hash="a2a811bf8d7d0e5edb6266c63dde71bd"/><file name="config.xml" hash="f57653c0df1d4e9260407eeecdcafdc5"/><file name="system.xml" hash="8b59918d01dd7cfbade110f13c50814f"/></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="vcatalog.css" hash="a4e999db95184b5c7740343a3fd074cc"/></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="vcatalog"><file name="jquery_1_4_2_min.js" hash="1e5389d096ff70677a5055d98c19691b"/><file name="vcatalog.js" hash="005323f15171a6e096bab5dbad5cd67b"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="vcatalog.xml" hash="10426e89c5230a26a515f227574b5b29"/></dir><dir name="template"><dir name="vcatalog"><file name="category_left.phtml" hash="f6b3061cee5ea5e8b8c3fa07c490f4f0"/><file name="home_left.phtml" hash="68ba1d817f9517b24e33e93e886a20cd"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ES_Vcatalog.xml" hash="16b3179512e34ef6d0fdce5887d11d03"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

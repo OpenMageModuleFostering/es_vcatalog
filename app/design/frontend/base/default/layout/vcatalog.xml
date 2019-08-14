@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_index_index>
+
+        <reference name="left">
+            <block before="-" type="vcatalog/vcatalog" name="left.vcatalog" as="vcatalog" template="vcatalog/home_left.phtml" />
+        </reference>
+
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/vcatalog.css</name><params/></action>
+           <action method="addJs"><script>vcatalog/jquery_1_4_2_min.js</script></action>
+            <action method="addJs"><script>vcatalog/vcatalog.js</script></action>
+      </reference>
+
+    </cms_index_index>
+
+    <catalog_category_default>
+
+        <reference name="left">
+            <block before="-" type="vcatalog/vcatalog" name="left.vcatalog" as="vcatalog" template="vcatalog/category_left.phtml" />
+        </reference>
+
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/vcatalog.css</name><params/></action>
+            <action method="addJs"><script>vcatalog/jquery_1_4_2_min.js</script></action>
+            <action method="addJs"><script>vcatalog/vcatalog.js</script></action>
+        </reference>
+
+    </catalog_category_default>
+
+    <catalog_category_layered>
+
+        <reference name="left">
+            <block before="-" type="vcatalog/vcatalog" name="left.vcatalog" as="vcatalog" template="vcatalog/category_left.phtml" />
+        </reference>
+
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/vcatalog.css</name><params/></action>
+            <action method="addJs"><script>vcatalog/jquery_1_4_2_min.js</script></action>
+            <action method="addJs"><script>vcatalog/vcatalog.js</script></action>
+        </reference>
+
+    </catalog_category_layered>
+</layout>
