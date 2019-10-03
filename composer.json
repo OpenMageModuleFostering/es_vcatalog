@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/ES_Vcatalog",
+    "name": "openmage-module-fostering\/es_vcatalog",
     "type": "magento-module",
-    "license": "OSL",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Vertical Catalog Exploded Navigation",
     "authors": [
